@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdOutlineRocketLaunch } from "react-icons/md";
 import moon from '../../assets/Images/moon.jpg'
-import user from '../../assets/Images/new-ai-img-3.jpg'
+import user from '../../assets/Images/ai-user.jpg'
 
 const features = [
     {

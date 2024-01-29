@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from '../assets/Images/nft.png'
 import { Link, NavLink } from 'react-router-dom';
+import { HiOutlineMenuAlt3 } from 'react-icons/hi'
 
 const navOptions = [
   {
@@ -21,6 +22,13 @@ const navOptions = [
 ]
 
 const Header = () => {
+  const [openSidebar, setOpenSidebar] = useState(false);
+
+  const handleClose = (e) => {
+      if(e.target.id === "screen"){
+        setOpenSidebar(false);
+      }
+  }
   return (
     <div className='w-full border-b border-b-[#3b3b3b] shadow-md'>
       <div className="w-[90%] mx-auto py-4 flex justify-between">
@@ -30,7 +38,7 @@ const Header = () => {
             <h2 className='text-2xl header'>NFT Hub</h2>
           </Link>
         </div>
-        <div className="flex gap-x-4 items-center">
+        <div className="hidden md:flex gap-x-4 items-center">
           {
             navOptions.map((nav) => (
               <NavLink to={nav.url} key={nav.id} className={({isActive}) => `hover:text-[#A259FF] text-[16px]`}>
@@ -39,11 +47,43 @@ const Header = () => {
             ))
           }
         </div>
-        <div className="flex items-center">
+        <div className="hidden md:flex items-center">
           <Link to={"#"} className='px-4 py-2 bg-[#A259FF] text-sm rounded-md'>
               Connect a wallet
           </Link>
-        </div>  
+        </div>
+        <div className='md:hidden grid'>
+          <HiOutlineMenuAlt3
+            className='w-[30px] h-[30px] cursor-pointer'
+            onClick={() => setOpenSidebar(true)}
+          />
+          {
+            openSidebar && (
+              <>
+              <div 
+                className="fixed w-full h-screen top-0 left-0 z-[99999] bg-[#00000024] "
+                onClick={handleClose}
+                id='screen'
+                >
+                  <div className="w-[70%] fixed z-[99999999] h-[100vh] bg-[#3b3b3b] bg-opacity-90 top-0 right-0">
+                    <div className="mt-[15vh] w-full text-center h-[70%] flex flex-col justify-evenly">
+                      {
+                        navOptions.map((nav, index) => (
+                            <Link key={nav.id} to={nav.url} className={`text-[14px] font-[500] text-opacity-80 text-white`}>
+                                {nav.title}
+                            </Link>
+                        ))
+                      }
+                      <Link to={"#"} className='w-[75%] mx-auto px-4 py-2 bg-[#A259FF] text-sm rounded-md'>
+                          Connect a wallet
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </>
+            )
+          }
+        </div>
       </div>
     </div>
   )

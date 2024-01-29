@@ -11,7 +11,7 @@ function Categories() {
                 {
                     categories.map((category) => (
                         <div key={category.id} className="w-full md:w-[48%] lg:w-[24%] flex flex-col justify-center items-center mb-4">
-                            <img src={category.img} alt="..." className='w-full h-[240px] object-cover rounded-t-xl' />
+                            <img src={category.img} alt="..." className='w-full h-[260px] md:h-[240px] object-cover rounded-t-xl' />
                             <div className='w-full bg-[#3b3b3b] px-5 py-4 rounded-b-xl'>
                                 <p className='text-[16px] font-[600]'>{category.title}</p>
                             </div>

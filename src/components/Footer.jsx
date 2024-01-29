@@ -29,7 +29,7 @@ const navOptionsFooter = [
 function Footer() {
   return (
     <div className='w-full bg-[#3B3B3B]'>
-      <div className="w-[90%] mx-auto py-4 flex justify-between gap-x-4">
+      <div className="w-[80%] mx-auto py-4 flex justify-between gap-x-4">
         <div className="w-[33%] flex flex-col justify-evenly py-2 gap-y-5">
           <div>
             <Link to={"/"} className="flex gap-x-2 items-center">
@@ -66,7 +66,7 @@ function Footer() {
             <p className='text-sm text-[#ccc]'>Get exclusive offers, deals &</p>
             <p className='text-sm text-[#ccc]'>updates delivered to your inbox.</p>
           </div>
-          <div className="bg-[#2b2b2b] bg-opacity-65 w-[65%] rounded-md flex rounded-r-2xl">
+          <div className="bg-[#2b2b2b] bg-opacity-65 w-[90%] rounded-md flex rounded-r-2xl">
               <input type="email" placeholder='Enter your email' className='bg-transparent w-[70%] py-2 px-3 text-sm placeholder:text-[#ccc] text-[#ccc]' style={{ borderTop: "none", borderBottom: "none", borderRight: "none", borderLeft: "none"}} />
               <button className='border-none w-[30%] bg-[#A259FF] text-sm h-full rounded-2xl'>Subscribe</button>
           </div>
@@ -74,8 +74,8 @@ function Footer() {
        
 
       </div>
-      <div className='w-[80%] ml-[5%] border-b-[0.25px] border-b-[#ccc]' />
-      <div className="w-[90%] mx-auto py-4">
+      <div className='w-[82%] mx-auto border-b-[0.25px] border-b-[#ccc]' />
+      <div className="w-[80%] mx-auto py-4">
       <p className='text-sm text-[#ccc]'>&copy; NFT Hub. Made with proud in Bharat.</p>
       </div>
     </div>

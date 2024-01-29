@@ -8,7 +8,7 @@ const navOptionsFooter = [
   {
     id: `NAVF001`,
     title: `Marketplace`,
-    url: `#`
+    url: `/marketplace`
   },
   {
     id: `NAVF002`,
@@ -29,7 +29,7 @@ const navOptionsFooter = [
 
 function Footer() {
   return (
-    <div className='w-full bg-[#3B3B3B]'>
+    <div className='w-full bg-[#3B3B3B] shadow-xl border-t border-t-[#2f2f2f]'>
       <div className="w-[80%] mx-auto max-w-[1600px] py-4 flex md:flex-row flex-col justify-between gap-x-4">
         <div className="w-[100%] md:w-[66%] flex justify-between gap-x-3">
           <div className="w-[50%] flex flex-col justify-evenly py-2 gap-y-5">

@@ -7,10 +7,6 @@ import creator6 from '../assets/Images/ai-creator-6.jpg';
 import creator7 from '../assets/Images/ai-creator-7.jpg';
 import creator8 from '../assets/Images/ai-creator-8.jpg';
 import creator9 from '../assets/Images/ai-creator-9.jpg';
-import creator10 from '../assets/Images/ai-creator-10.png';
-import creator11 from '../assets/Images/ai-creator-11.jpg';
-import creator12 from '../assets/Images/ai-creator-12.jpg';
-
 
 import user1 from '../assets/Images/ai-user.jpg'
 import user2 from '../assets/Images/ai-user-2.jpg'

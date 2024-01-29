@@ -7,7 +7,7 @@ const navOptions = [
   {
     id: `NAV001`,
     title: `Marketplace`,
-    url: `#`
+    url: `/marketplace`
   },
   {
     id: `NAV002`,

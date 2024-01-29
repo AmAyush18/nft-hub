@@ -6,6 +6,7 @@ import Categories from './Categories';
 import MoreNfts from './MoreNfts';
 import Highlight from './Highlight';
 import Working from './Working';
+import Subscribe from './Subscribe';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <MoreNfts />
       <Highlight />
       <Working />
+      <Subscribe />
     </div>
   )
 }

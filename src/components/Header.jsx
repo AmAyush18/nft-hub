@@ -22,7 +22,7 @@ const navOptions = [
 
 const Header = () => {
   return (
-    <div className='w-full border-b border-b-white shadow-md'>
+    <div className='w-full border-b border-b-[#3b3b3b] shadow-md'>
       <div className="w-[90%] mx-auto py-4 flex justify-between">
         <div>
           <Link to={"/"} className="flex gap-x-2 items-center">

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Subscribe() {
   return (
     <div className='w-full'>
-        <div className="w-[80%] mx-auto max-w-[1600px] bg-[#3b3b3b] rounded-xl py-12 mb-14 flex md:flex-row flex-col gap-y-4 md:gap-y-0 justify-start md:justify-between px-16">
+        <div className="w-[80%] mx-auto max-w-[1600px] bg-[#3b3b3b] rounded-xl py-12 mb-14 flex md:flex-row flex-col gap-y-4 md:gap-y-0 justify-start md:justify-between px-6 md:px-12 lg:px-16">
             <div className="w-[100%] mx-auto md:mx-0 md:w-[48%]">
                 <img src={subscribe} alt="..." className='w-[100%] h-[360px] object-cover rounded-xl' />
             </div>

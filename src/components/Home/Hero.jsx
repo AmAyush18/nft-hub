@@ -39,10 +39,10 @@ function Hero() {
                 </div>
                 <p className='text-[16px] w-[85%] text-[#ccc]'>NFT Hub is a landing page created with React & Tailwind CSS. Collect, buy and sell art with large community of NFT artists.</p>
 
-                <button className='bg-[#A259FF] w-[35%] text-sm py-4 px-12 rounded-2xl flex items-center gap-x-2'>
+                <p className='bg-[#A259FF] mt-[12px] md:w-[65%] lg:w-[45%] text-center text-sm py-4 px-12 rounded-2xl flex justify-center items-center gap-x-2'>
                     <MdOutlineRocketLaunch className='w-[16px] h-[16px] text-white'/>
                     Get Started
-                </button>
+                </p>
 
                 <div className="flex justify-between w-[75%]">
                     {

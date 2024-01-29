@@ -18,9 +18,9 @@ import user3 from '../../assets/Images/ai-warrior-3.jpg'
 function Trendings() {
   return (
     <div className='w-full'>
-        <div className="w-[80%] mx-auto max-w-[1300px] mt-14 py-12 flex flex-col gap-y-2">
+        <div className="w-[80%] mx-auto max-w-[1600px] mt-14 py-12 flex flex-col gap-y-2">
             <h2 className='text-3xl font-[500]'>Trending Collection</h2>
-            <p className='text-lg text-opacity-75'>Checkout our weekly updated trending collection.</p>
+            <p className='text-lg text-opacity-75'>Checkout our weekly updated trending collection</p>
             <div className="w-full mt-6 flex md:flex-row flex-col gap-y-6 md:gap-y-0 md:justify-between">
                 <div className="w-[100%] mx-auto md:mx-0 md:w-[49%] lg:w-[32%] flex flex-col gap-y-2">
                     <img src={animal1} alt="..." className='w-[100%] h-[360px] object-cover rounded-xl' />

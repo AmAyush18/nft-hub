@@ -29,7 +29,7 @@ const navOptionsFooter = [
 function Footer() {
   return (
     <div className='w-full bg-[#3B3B3B]'>
-      <div className="w-[80%] mx-auto py-4 flex justify-between gap-x-4">
+      <div className="w-[80%] mx-auto max-w-[1600px] py-4 flex justify-between gap-x-4">
         <div className="w-[33%] flex flex-col justify-evenly py-2 gap-y-5">
           <div>
             <Link to={"/"} className="flex gap-x-2 items-center">
@@ -74,8 +74,8 @@ function Footer() {
        
 
       </div>
-      <div className='w-[82%] mx-auto border-b-[0.25px] border-b-[#ccc]' />
-      <div className="w-[80%] mx-auto py-4">
+      <div className='w-[82%] mx-auto max-w-[1600px] border-b-[0.25px] border-b-[#ccc]' />
+      <div className="w-[80%] mx-auto max-w-[1600px] py-4">
       <p className='text-sm text-[#ccc]'>&copy; NFT Hub. Made with proud in Bharat.</p>
       </div>
     </div>

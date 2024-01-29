@@ -4,6 +4,8 @@ import Trendings from './Trendings';
 import Creators from './Creators';
 import Categories from './Categories';
 import MoreNfts from './MoreNfts';
+import Highlight from './Highlight';
+import Working from './Working';
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
       <Creators />
       <Categories />
       <MoreNfts />
+      <Highlight />
+      <Working />
     </div>
   )
 }

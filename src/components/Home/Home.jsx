@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero';
 import Trendings from './Trendings';
 import Creators from './Creators';
+import Categories from './Categories';
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Hero />
       <Trendings />
       <Creators />
+      <Categories />
     </div>
   )
 }

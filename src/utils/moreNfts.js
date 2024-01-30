@@ -10,7 +10,7 @@ import warrior from '../assets/Images/new-ai-img-3.jpg'
 export const moreNfts = [
     {
         id: `NFT001`,
-        title: `Wild Harmony`,
+        title: `DJ Monk`,
         description: `In the heart of a mystical forest, DJ Monk orchestrates a wild harmony, blending the sounds of nature into a mesmerizing melody. Creatures gather, enchanted by the musical spell, as BinaryCreates brings the magical scene to life in this enchanting NFT masterpiece.`,
         creatorAvatar: user1,
         creatorName: `BinaryCreates`,

@@ -1,5 +1,6 @@
 import React from 'react'
 import { moreNfts } from '../../utils/moreNfts'
+import { Link } from 'react-router-dom'
 
 function MoreNfts() {
   return (
@@ -10,7 +11,7 @@ function MoreNfts() {
             <div className="w-full mt-6 flex md:flex-row flex-col gap-y-6 md:gap-y-0 md:justify-between">
                 {
                     moreNfts.map((nft, index) => (
-                        <div key={nft.id} className={`w-[100%] mx-auto md:mx-0 md:w-[49%] lg:w-[32%] ${index === 2 ? 'flex md:hidden lg:flex' : 'flex' } flex-col `}>
+                        <Link key={nft.id} to={`/nft/${nft.id}`} className={`w-[100%] mx-auto md:mx-0 md:w-[49%] lg:w-[32%] ${index === 2 ? 'flex md:hidden lg:flex' : 'flex' } flex-col `}>
                             <img src={nft.img} alt="..." className='w-[100%] h-[480px] md:h-[360px] object-cover rounded-t-xl' />
                             <div className="w-[100%] bg-[#3b3b3b] py-4 rounded-b-xl">
                                 <div className="w-[85%] mx-auto flex flex-col gap-y-2">
@@ -31,7 +32,7 @@ function MoreNfts() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     ))
                 }
             </div>

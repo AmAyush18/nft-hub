@@ -1,11 +1,11 @@
 import React from 'react'
 import animal1 from '../../assets/Images/ai-image-0.png';
-import animal2 from '../../assets/Images/ai-dog.jpg';
+import animal2 from '../../assets/Images/ai-dog.png';
 import animal3 from '../../assets/Images/ai-cat.jpg';
 
 import game1 from '../../assets/Images/ai-game-1.jpg'
 import game2 from '../../assets/Images/ai-game-2.jpg'
-import game3 from '../../assets/Images/ai-game-3.jpg'
+import game3 from '../../assets/Images/ai-game-3.png'
 
 import warrior1 from '../../assets/Images/new-ai-img-3.jpg'
 import warrior2 from '../../assets/Images/ai-warrior-2.jpg'

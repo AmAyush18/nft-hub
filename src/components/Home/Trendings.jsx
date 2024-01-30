@@ -31,7 +31,7 @@ function Trendings() {
                         <div className="w-[32%]">
                             <img src={animal3} alt="..." className='w-[100%] h-[120px] object-cover rounded-xl' />
                         </div>
-                        <div className="w-[32%] bg-[#A259FF] flex items-center justify-center rounded-xl">
+                        <div className="w-[32%] bg-teal-600 flex items-center justify-center rounded-xl">
                             <p className='text-xl'>1000+</p>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ function Trendings() {
                         <div className="w-[32%]">
                             <img src={game3} alt="..." className='w-[100%] h-[120px] object-cover rounded-xl' />
                         </div>
-                        <div className="w-[32%] bg-[#A259FF] flex items-center justify-center rounded-xl">
+                        <div className="w-[32%] bg-teal-600 flex items-center justify-center rounded-xl">
                             <p className='text-xl'>1000+</p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ function Trendings() {
                         <div className="w-[32%]">
                             <img src={warrior3} alt="..." className='w-[100%] h-[120px] object-cover rounded-xl' />
                         </div>
-                        <div className="w-[32%] bg-[#A259FF] flex items-center justify-center rounded-xl">
+                        <div className="w-[32%] bg-teal-600 flex items-center justify-center rounded-xl">
                             <p className='text-xl'>1000+</p>
                         </div>
                     </div>

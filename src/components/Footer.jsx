@@ -71,8 +71,8 @@ function Footer() {
           </div>
           <div className="bg-[#2b2b2b] bg-opacity-65 w-[90%] rounded-md flex rounded-r-2xl">
           <input type="email" placeholder='Enter your email' className='bg-transparent w-[70%] py-3 lg:py-4 px-3 text-sm placeholder:text-[#ccc] text-[#ccc] active:border-none' style={{ borderTop: "none", borderBottom: "none", borderRight: "none", borderLeft: "none"}} />
-                    <Link className='w-[30%] hidden lg:block bg-[#A259FF] text-sm h-[100%] py-4 rounded-2xl text-center'>Subscribe</Link>
-                    <Link className='w-[30%] lg:hidden bg-[#A259FF] flex items-center justify-center text-sm h-[100%] py-3 rounded-2xl text-center'><FiSend className='w-[18px] h-[18px]' /> </Link>
+                    <Link className='w-[30%] hidden lg:block bg-teal-600 text-sm h-[100%] py-4 rounded-2xl text-center'>Subscribe</Link>
+                    <Link className='w-[30%] lg:hidden bg-teal-600 flex items-center justify-center text-sm h-[100%] py-3 rounded-2xl text-center'><FiSend className='w-[18px] h-[18px]' /> </Link>
           </div>
         </div>
        

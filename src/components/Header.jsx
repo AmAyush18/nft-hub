@@ -41,14 +41,14 @@ const Header = () => {
         <div className="hidden md:flex gap-x-4 items-center">
           {
             navOptions.map((nav) => (
-              <NavLink to={nav.url} key={nav.id} className={({isActive}) => `hover:text-[#A259FF] text-[16px]`}>
+              <NavLink to={nav.url} key={nav.id} className={({isActive}) => `hover:text-teal-600 text-[16px]`}>
                   {nav.title}
               </NavLink>
             ))
           }
         </div>
         <div className="hidden md:flex items-center">
-          <Link to={"#"} className='px-4 py-2 bg-[#A259FF] text-sm rounded-md'>
+          <Link to={"#"} className='px-4 py-2 bg-teal-600 text-sm rounded-md'>
               Connect a wallet
           </Link>
         </div>
@@ -74,7 +74,7 @@ const Header = () => {
                             </Link>
                         ))
                       }
-                      <Link to={"#"} className='w-[75%] mx-auto px-4 py-2 bg-[#A259FF] text-sm rounded-md'>
+                      <Link to={"#"} className='w-[75%] mx-auto px-4 py-2 bg-teal-600 text-sm rounded-md'>
                           Connect a wallet
                       </Link>
                     </div>

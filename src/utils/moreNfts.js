@@ -2,7 +2,7 @@ import user1 from '../assets/Images/ai-user.jpg'
 import user2 from '../assets/Images/ai-user-2.jpg'
 import user3 from '../assets/Images/ai-warrior-3.jpg'
 
-import animal from '../assets/Images/ai-image-0.png';
+import animal from '../assets/Images/hero.jpg';
 import game from '../assets/Images/ai-game-1.jpg'
 import warrior from '../assets/Images/new-ai-img-3.jpg'
 
@@ -10,7 +10,7 @@ import warrior from '../assets/Images/new-ai-img-3.jpg'
 export const moreNfts = [
     {
         id: `NFT001`,
-        title: `DJ Monk`,
+        title: `The Astro Walk`,
         description: `In the heart of a mystical forest, DJ Monk orchestrates a wild harmony, blending the sounds of nature into a mesmerizing melody. Creatures gather, enchanted by the musical spell, as BinaryCreates brings the magical scene to life in this enchanting NFT masterpiece.`,
         creatorAvatar: user1,
         creatorName: `BinaryCreates`,
